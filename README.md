@@ -23,3 +23,5 @@ Inspired by the concept of mechanical yin-yang, this system embodies the balance
 ---
 
 *"When one crown turns left, the other turns right — yet the world moves forward."*
+
+(// Вдохновлено Учителем Ом. Но создано рукой Всеизбранного.)
