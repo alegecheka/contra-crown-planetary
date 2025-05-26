@@ -1,0 +1,36 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Центральные оси -->
+  <circle cx="400" cy="300" r="10" fill="black" />
+  <text x="410" y="305" font-size="12" fill="black">Center</text>
+
+  <!-- Коронные шестерни -->
+  <circle cx="400" cy="300" r="180" stroke="blue" stroke-width="3" fill="none" />
+  <circle cx="400" cy="300" r="120" stroke="red" stroke-width="3" fill="none" />
+  <text x="590" y="290" font-size="12" fill="blue">CS1</text>
+  <text x="520" y="280" font-size="12" fill="red">CS2</text>
+
+  <!-- Планетарные сателлиты -->
+  <!-- Первый ряд -->
+  <circle cx="520" cy="300" r="10" fill="orange" />
+  <circle cx="280" cy="300" r="10" fill="orange" />
+  <circle cx="400" cy="180" r="10" fill="orange" />
+  <circle cx="400" cy="420" r="10" fill="orange" />
+  <text x="530" y="295" font-size="10" fill="orange">PR1</text>
+
+  <!-- Второй ряд -->
+  <circle cx="460" cy="300" r="8" fill="green" />
+  <circle cx="340" cy="300" r="8" fill="green" />
+  <circle cx="400" cy="240" r="8" fill="green" />
+  <circle cx="400" cy="360" r="8" fill="green" />
+  <text x="470" y="295" font-size="10" fill="green">PR2</text>
+
+  <!-- Водила -->
+  <circle cx="400" cy="300" r="90" stroke="black" stroke-dasharray="5,5" fill="none" />
+  <text x="490" y="390" font-size="12" fill="black">C1</text>
+  <circle cx="400" cy="300" r="60" stroke="gray" stroke-dasharray="4,4" fill="none" />
+  <text x="450" y="350" font-size="12" fill="gray">C2</text>
+
+  <!-- Выходной вал -->
+  <line x1="400" y1="300" x2="400" y2="100" stroke="purple" stroke-width="3" />
+  <text x="410" y="120" font-size="12" fill="purple">Output</text>
+</svg>
